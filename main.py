@@ -8,6 +8,18 @@ print (myAge * 10)
 print (myAge - 10)
 print (myAge + 10)
 print (myAge / 10)
+print(myAge>18 and myAge<30)
+print(myAge<18 or myAge<30)
+print(not(myAge>18, myAge<30))
+n= 5
+n+=3
+print (n)
+n-=2
+print (n)
+n*=5
+print (n)
+n/=5
+print (n)
 age = myAge>10
 print (age)
 age = myAge<10
