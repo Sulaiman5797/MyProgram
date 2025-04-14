@@ -31,3 +31,11 @@ for number in num:
         print (f'{number} is even')
     else:
         print (f'{number} is odd')
+for z in range (1, 10):
+    if z == 5:
+        break
+    print(z)
+for z in range (1, 10):
+    if z == 5:
+        continue
+    print(z)
